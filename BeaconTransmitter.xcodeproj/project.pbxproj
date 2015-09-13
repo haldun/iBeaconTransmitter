@@ -187,11 +187,13 @@
 		275B9AA41BA36EE50028BB18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = monoid;
 				TargetAttributes = {
 					275B9AAB1BA36EE50028BB18 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = T83LQPL2PG;
 					};
 					275B9ABF1BA36EE50028BB18 = {
 						CreatedOnToolsVersion = 7.0;
@@ -398,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BeaconTransmitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.monoid.BeaconTransmitter;
@@ -409,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BeaconTransmitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.monoid.BeaconTransmitter;
@@ -483,6 +487,7 @@
 				275B9AD61BA36EE50028BB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		275B9AD71BA36EE50028BB18 /* Build configuration list for PBXNativeTarget "BeaconTransmitterTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +496,7 @@
 				275B9AD91BA36EE50028BB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		275B9ADA1BA36EE50028BB18 /* Build configuration list for PBXNativeTarget "BeaconTransmitterUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +505,7 @@
 				275B9ADC1BA36EE50028BB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
